@@ -31,10 +31,6 @@
 	}
 	#content{}
 	#content > p{ text-align:center; font-size:1.5em; margin:0 0 10px; }
-	a{ color:rgb(128,190,202); }
-	ul{ list-style:none; font-size:1.5em; width:40%; margin:50px auto 10px; text-align:center; }
-	ul li{ display:inline; padding:0 10px 0 0; }
-	ul li:last-child{ padding-right:0; }
 	h1{
 	  text-indent:-9999px;
 	  background:transparent url(images/logo.png) no-repeat top left;
@@ -42,8 +38,25 @@
 	  height:92px;
 	  margin:50px auto 50px;
 	}
-	ul.meta{
+	a{ color:rgb(128,190,202); }
+	ul{ list-style:none; font-size:1.5em; width:40%; margin:50px auto 10px; text-align:center; }
+	ul li{ display:inline; padding:0 10px 0 0; }
+	ul li.services{
+	  display:block;
+	  padding:0;
 	}
+	ul li.services dl{
+	  font-size:12px;
+	  padding:50px 0 0;
+    color:rgb(128,190,202);
+	}
+	ul li.services dl:last-child{
+	  padding-top:125px;
+	  color:#56243a;
+	}
+	ul li.services dl dt{ font-size:14px; display:inline; font-weight:bold; }
+	ul li.services dl dt:after{ content:': '; }
+	ul li.services dl dd{ display:inline; padding:0 5px; }
   </style>
 <script type="text/javascript">
 
@@ -88,6 +101,33 @@
         //]]>
         </script>
         </li>
+        <li class="services">
+          <dl>
+            <dt>DOs</dt>
+            <dd>Rails</dd>
+            <dd>Ruby</dd>
+            <dd>JavaScript</dd>
+            <dd>Backbone.js</dd>
+            <dd>Underscore.js</dd>
+            <dd>Progressive Enhancement</dd>
+            <dd>Node</dd>
+            <dd>HTML5</dd>
+            <dd>Testing</dd>
+            <dd>Performance</dd>
+            <dd>jQuery</dd>
+            <dd>Reality</dd>
+            <dd>Automotive Repair</dd>
+          </dl>
+          <dl>
+            <dt>DON'Ts</dt>
+            <dd>.NET</dd>
+            <dd>PHP</dd>
+            <dd>CSS1</dd>
+            <dd>HTML4</dd>
+            <dd>XHTML</dd>
+            <dd>Pre-optimization</dd>
+            <dd>Hemming and Hawing</dd>
+          </dl>
       </ul>
     </div>
   </div>
